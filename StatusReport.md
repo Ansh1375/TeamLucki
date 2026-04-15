@@ -48,7 +48,7 @@ Challenges and Solutions:
     Misleading null values:
         Location had a high null count. We deemed this irrelevant to the analysis and decided to remove the column.
     Large dataset:
-        The dataset from the Chicago Data Portal was extremely large, making it impossible to upload to git. This is a problem that we are unsure of how to fix at this moment, but we will work on fixing it as soon as possible.
+        The dataset from the Chicago Data Portal was extremely large, making it impossible to upload to git. This is a problem that we are unsure of how to fix at this moment, but we will work on fixing it as soon as possible. Because the full crime dataset exceeds GitHub's file size limit, we are planning on storing it locally and documenting the source and loading process in the repository so the analysis remains reproducible without uploading the raw 300+ MB file.
 
 Individual Contributions:
 Maksim Mihajlovic:
@@ -57,3 +57,8 @@ I was responsible for assessing the quality of both datasets and ensuring they w
 I also played a key role in debugging and improving the dataset integration process. After the initial merge, I identified mismatches caused by differences in the formatting of the community_id field and resolved them by standardizing data types across both datasets. I also verified the integrity of the merged dataset by confirming that income and poverty rate were correctly aligned with the crime data and contained no missing values.
 
 Overall, my contributions focused on ensuring the data was accurate, consistent, and fully prepared for reliable analysis in the next stages of the project.
+
+Ansh Bera: 
+I was primarily responsible for the data acquisition, project setup, and the later stages of integration and visualization for this milestone. I also helped organize the GitHub repository and keep our project materials structured as we progressed through each milestone.
+
+In addition, I contributed to the integration and exploratory analysis phase by helping merge the datasets at the community level and confirming that the merged dataset could be used for community-based analysis of crime, income, and poverty. After the merged dataset was prepared, I worked on developing visualizations to explore the relationship between crime counts and socioeconomic conditions across Chicago communities. This included utilizing python packages such as matplotlib and seaborn to create plots comparing crime counts to median household income and poverty rate, identifying communities with the highest crime counts, and examining crime patterns across income groupings and crime types. Overall, my contributions focused on dataset merging, visualization, and helping move the project from cleaned data to interpretable analysis.
