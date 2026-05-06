@@ -1,0 +1,8 @@
+# Ignore the large data files (required for UIUC 50MB rule)
+crime.csv
+crime_with_ses.csv
+
+# Ignore system/python clutter
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/

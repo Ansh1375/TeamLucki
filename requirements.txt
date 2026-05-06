@@ -1,0 +1,8 @@
+pandas
+matplotlib
+jupyter
+nbconvert
+seaborn
+scikit-learn
+scipy
+statsmodels
