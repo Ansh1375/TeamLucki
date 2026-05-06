@@ -6,3 +6,5 @@ seaborn
 scikit-learn
 scipy
 statsmodels
+os
+requests
